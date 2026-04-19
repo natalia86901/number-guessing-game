@@ -38,3 +38,24 @@ h3 {
     border-radius: 20px;
     border: none;
 }
+
+@media (max-width: 800px) {
+    .container {
+    width: 70%;
+    margin-top: 60px;
+  }
+
+  .input {
+    width: 60%;
+    font-size: 16px;
+  }
+
+  #btn {
+    padding: 15px 20px;
+    font-size: 14px;
+  }
+
+  body {
+    background-position: center;
+  }
+}
